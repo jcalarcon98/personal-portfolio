@@ -5,6 +5,13 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        custom: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+      },
+    },
     screens: {
       sm: '640px',
       md: '768px',
