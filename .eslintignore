@@ -4,3 +4,5 @@ node_modules
 dist
 # don't lint nyc coverage output
 coverage
+next-i18next.config.js
+next.config.js
