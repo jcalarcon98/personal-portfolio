@@ -11,7 +11,6 @@ const Sidebar = () => {
         <p className='font-bold text-2xl text-gray-200'>Jean Carlos Alarcón</p>
       </div>
       {/* Actions */}
-      <LanguageSwitcher />
       <div className='w-full h-12 flex lg:h-auto lg:flex-col lg:items-start lg:justify-items-start'>
         <a href='https://github.com' className='flex flex-grow items-center justify-center p-2 text-blue-500 hover:text-blue-500'>
           <div className='text-center flex flex-col lg:flex-row lg:items-center'>
