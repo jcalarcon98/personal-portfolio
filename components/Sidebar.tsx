@@ -5,8 +5,6 @@ const Sidebar = () => {
   const sideBarValue = 'Profile';
 
   return (
-   
-
     <div className='bg-gray-800 lg:flex lg:flex-col lg:w-72 lg:justify-between'>
       {/* Icon */}
       <div className='hidden lg:flex lg:justify-center mt-5'>

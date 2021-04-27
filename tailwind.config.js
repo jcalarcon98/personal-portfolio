@@ -823,6 +823,11 @@ module.exports = {
     'disabled',
   ],
   variants: {
+    extend: {
+      backgroundColor: ['checked'],
+      borderColor: ['checked'],
+      borderWidth: ['last'],
+    },
     accessibility: ['responsive', 'focus-within', 'focus'],
     alignContent: ['responsive'],
     alignItems: ['responsive'],
