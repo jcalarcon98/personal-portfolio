@@ -1,0 +1,19 @@
+{
+  "sections" : [
+    {
+      "id": "1",
+      "name": "home",
+      "icon": "mdi mdi-newspaper-variant-outline" 
+    },
+    { 
+      "id": "2",
+      "name": "about",
+      "icon": "mdi mdi-newspaper-variant-outline" 
+    },
+    {
+      "id": "3",
+      "name": "projects",
+      "icon": "mdi mdi-newspaper-variant-outline" 
+    }
+  ]
+}

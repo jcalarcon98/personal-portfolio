@@ -3,11 +3,11 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
 const Layout = ({ children } : { children: React.ReactNode }) => (
-  <div className='min-h-screen flex flex-col-reverse justify-between bg-gray-900 lg:flex-row'>
+  <div className='flex flex-col-reverse bg-gray-900 h-screen justify-between lg:flex-row'>
     <Sidebar />
-    <div className='w-full flex flex-col'>
+    <div className='w-full h-full flex flex-col'>
       <Navbar />
-      <div className='h-full'>
+      <div className='h-full p-4 lg:p-32'>
         {
           children
         }
