@@ -1,5 +1,7 @@
 {
   "greeting": "Hi",
   "my_name_is": "my name is",
-  "position": "SOFTWARE DEVELOPER"
+  "position": "SOFTWARE DEVELOPER",
+  "description": "I am a systems engineer, resident in Ecuador, technology lover. My main purpose is build technological solutions that help make people's lives easier.",
+  "download": "DOWNLOAD CV"
 }

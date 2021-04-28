@@ -4,19 +4,19 @@
       "id": "1",
       "name": "home",
       "url": "/",
-      "icon": "mdi mdi-newspaper-variant-outline" 
+      "icon": "mdi mdi-home-outline" 
     },
     { 
       "id": "2",
       "name": "about",
       "url": "/about",
-      "icon": "mdi mdi-newspaper-variant-outline" 
+      "icon": "mdi mdi-account-box-outline" 
     },
     {
       "id": "3",
       "name": "projects",
       "url": "/projects",
-      "icon": "mdi mdi-newspaper-variant-outline" 
+      "icon": "mdi mdi-file-code" 
     }
   ]
 }

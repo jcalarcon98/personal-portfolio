@@ -1,6 +1,8 @@
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import {
+  AiFillGithub, AiFillLinkedin, AiFillTwitterCircle,
+} from 'react-icons/ai';
+import { MdMessage } from 'react-icons/md';
 import { useTranslation } from 'next-i18next';
-import Image from 'next/image';
 import { sections } from '../api/data.json';
 import SidebarItem from './SidebarItem';
 
@@ -23,18 +25,20 @@ const Sidebar = () => {
           url,
         }) => (<SidebarItem key={id} section={t(`${name}`)} icon={icon} url={url} />))
         }
-        {/* <Image src='/inspiration.svg' width={200} height={200} /> */}
       </div>
       {/* Social media */}
       <div className='hidden text-blue-500 mb-5 lg:flex lg:flex-row lg:justify-center'>
-        <a href='https://github.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-3xl mr-4'>
+        <a href='https://github.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
           <AiFillGithub />
         </a>
-        <a href='https://www.linkedin.com/in/jcalarcon98/' target='blank' rel='noopener noreferrer' className='text-3xl mr-4'>
+        <a href='https://www.linkedin.com/in/jcalarcon98/' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
           <AiFillLinkedin />
         </a>
-        <a href='https://twitter.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-3xl'>
+        <a href='https://twitter.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
           <AiFillTwitterCircle />
+        </a>
+        <a href='mailto:someone@yoursite.com' target='blank' className='text-2xl'>
+          <MdMessage />
         </a>
       </div>
     </div>
