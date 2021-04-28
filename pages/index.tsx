@@ -1,15 +1,16 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
+import TypeWriter from '../components/TypeWriter';
 
 export default function Home() {
   const { t } = useTranslation('mainPage');
 
   return (
-    <div className='flex flex-col-reverse justify-center h-full items-center xl:flex-row'>
+    <div className='flex flex-col-reverse p-4 justify-center h-full items-center xl:flex-row'>
       <div className='w-full mt-4 text-white font-custom flex flex-col justify-center sm:w-4/5 lg:w-full xl:w-3/5 lg:mt-0'>
         <p className='text-base text-white font-bold lg:mb-2 lg:text-lg'>{`${t('greeting')} ${String.fromCodePoint(0x1F44b)}, ${t('my_name_is')}`}</p>
-        <p className='text-2xl mb-1 lg:text-7xl lg:mb-4 font-bold text-blue-500'>Jean Carlos Alarcón.</p>
+        <TypeWriter text='Jean Carlos Alarcón' classElements='text-2xl mb-1 lg:text-7xl lg:mb-4 font-bold text-blue-500' />
         <p className='text-lg lg:text-4xl mb-4 font-extrabold text-gray-400 uppercase'>{t('position')}</p>
         <p className='w-full text-sm font-medium mb-4 lg:mb-8 lg:w-4/5 lg:text-lg '>
           { t('description')}

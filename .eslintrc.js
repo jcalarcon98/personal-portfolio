@@ -19,5 +19,6 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'],
     'jsx-a11y/anchor-is-valid': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'max-len': 'off',
   },
 };
