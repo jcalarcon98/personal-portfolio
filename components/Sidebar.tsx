@@ -3,7 +3,7 @@ import {
 } from 'react-icons/ai';
 import { MdMessage } from 'react-icons/md';
 import { useTranslation } from 'next-i18next';
-import { sections } from '../api/data.json';
+import { sections } from '../api/sidebar.json';
 import SidebarItem from './SidebarItem';
 
 const Sidebar = () => {
