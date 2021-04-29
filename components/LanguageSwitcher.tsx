@@ -9,6 +9,7 @@ function LanguageSwitcher() {
   const [isChecked, setIsChecked] = useState(cookie.get('enLanguageSelected') !== undefined);
 
   const handleChange = (event) => {
+    event.preventDefault();
     const checkedValue: boolean = event.target.checked;
 
     if (checkedValue) {
