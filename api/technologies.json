@@ -1,0 +1,69 @@
+{
+  "technologies" : [
+    {
+      "id": 1,
+      "image": "html",
+      "name": "HTML"
+    },
+    {
+      "id": 2,
+      "image": "css",
+      "name": "CSS"
+    },
+    {
+      "id": 3,
+      "image": "js",
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "image": "react",
+      "name": "React"
+    },
+    {
+      "id": 5,
+      "image": "node",
+      "name": "NodeJs"
+    },
+    {
+      "id": 6,
+      "image": "express",
+      "name": "Express"
+    },
+    {
+      "id": 7,
+      "image": "nestjs",
+      "name": "NestJS"
+    },
+    {
+      "id": 8,
+      "image": "graphql",
+      "name": "GraphQL"
+    },
+    {
+      "id": 9,
+      "image": "python",
+      "name": "Python"
+    },
+    {
+      "id": 10,
+      "image": "drf",
+      "name": "DRF"
+    },
+    {
+      "id": 11,
+      "image": "database",
+      "name": "SQL"
+    },
+    {
+      "id": 12,
+      "image": "bash",
+      "name": "Servers"
+    },
+    {
+      "id": 13,
+      "image": "docker",
+      "name": "Docker"
+    }
+  ]
+}
