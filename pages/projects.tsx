@@ -1,10 +1,15 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import ProjectItem from '../components/ProjectItem';
 
 const ProjectsPage = () => {
   console.log('Helloda');
 
   return (
-    <h1 className='text-xl text-white'>Hello World from Projects Page</h1>
+    <div className='text-xl text-white h-full border-2 border-red-500'>
+
+      <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} />
+
+    </div>
   );
 };
 
