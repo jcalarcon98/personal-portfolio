@@ -1,5 +1,6 @@
 {
   "about": "Sobre mí",
-  "first_description": "Hola mi nombre es Jean Carlos Alarcón, me enfoco al desarrollo de software, principalmente me entusiasma trabajar con tecnologías del lado del Backend, sin embargo, también tengo conocimientos sólidos en la parte del Frontend. Además, he realizado trabajos en el ámbito de infraestructura tecnológica.",
-  "second_description": "Soy autodidacta y constantemente me gusta adquirir nuevos conocimientos y compartir todo lo aprendido. Me apasiona la filosofía del Open Source y promulgarla cuando es conveniente."
+  "first_description": "Hola, mi nombre es Jean Carlos Alarcón, me enfoco al desarrollo de software, principalmente me entusiasma trabajar con tecnologías del lado del Backend, sin embargo, también tengo conocimientos sólidos en la parte del Frontend. Además, he realizado trabajos en el ámbito de infraestructura tecnológica.",
+  "second_description": "Soy autodidacta y constantemente me gusta adquirir nuevos conocimientos y compartir todo lo aprendido. Me apasiona la filosofía del Open Source y promulgarla cuando es conveniente.",
+  "tech_title": "Tecnologías"
 }

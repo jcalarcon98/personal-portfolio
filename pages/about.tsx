@@ -47,7 +47,9 @@ const AboutPage = () => {
           </div>
 
           <div className='text-white'>
-            <h3 className='text-blue-500 font-semibold mt-3 font-custom md:text-xl'>Technologies:</h3>
+            <h3 className='text-blue-500 font-semibold mt-3 font-custom md:text-xl'>
+              {`${t('tech_title')}:`}
+            </h3>
             <div className='mt-4 grid grid-cols-3 gap-10 md:grid-cols-4 lg:grid-cols-7 xl:pr-14'>
               {
                 technologies.map(({ id, image, name }) => <TechnologieItem key={id} imageName={image} name={name} />)
