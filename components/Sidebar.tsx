@@ -10,11 +10,11 @@ const Sidebar = () => {
   const { t } = useTranslation('sidebar');
 
   return (
-    <div className='bg-gray-800 w-full h-full lg:static lg:flex lg:flex-col lg:w-72 lg:justify-between'>
-      <div className='hidden lg:flex lg:justify-center mt-5'>
+    <div className='bg-gray-800 w-full h-full lg:flex lg:flex-col lg:justify-between'>
+      <div className='hidden xl:flex xl:justify-center'>
         <p className='font-bold text-2xl text-gray-200'>Jean Carlos Alarcón</p>
       </div>
-      <div className='w-full flex h-12 lg:h-auto lg:flex-col lg:items-start lg:justify-items-start'>
+      <div className='w-full flex h-12 xl:h-auto xl:flex-col xl:items-start xl:justify-items-start'>
         {
         sections.map(({
           id,
@@ -24,7 +24,7 @@ const Sidebar = () => {
         }) => (<SidebarItem key={id} section={t(`${name}`)} icon={icon} url={url} />))
         }
       </div>
-      <div className='hidden text-blue-500 mb-5 lg:flex lg:flex-row lg:justify-center'>
+      <div className='hidden text-blue-500 mb-5 xl:flex xl:flex-row xl:justify-center'>
         <a href='https://github.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
           <AiFillGithub />
         </a>

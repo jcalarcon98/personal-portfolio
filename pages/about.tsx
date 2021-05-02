@@ -7,7 +7,7 @@ const AboutPage = () => {
   const { t } = useTranslation('about');
 
   return (
-    <div className=' mt-7 xl:flex xl:justify-center xl:items-center xl:px-14'>
+    <div className='py-7 xl:flex xl:justify-center xl:items-center xl:px-14'>
       <div className='p-4 xl:h-4/5 2xl:px-20 2xl:w-4/5'>
         <div className='flex flex-col mb-10 text-sm h-full justify-center lg:mb-0'>
           <div className='flex flex-row items-center mb-4'>

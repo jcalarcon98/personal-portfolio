@@ -6,7 +6,7 @@ const ProjectsPage = () => {
   console.log('Hello world');
 
   return (
-    <div className='mt-7 p-4 text-white w-full'>
+    <div className='p-4 py-12 text-white w-full'>
       <div>
         <div className='flex flex-row items-center mb-4'>
           <p className='flex font-custom text-lg font-semibold text-white md:text-2xl'>
