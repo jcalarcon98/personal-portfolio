@@ -1,10 +1,18 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import { useEffect } from 'react';
 import TechnologieItem from '../components/TechnologieItem';
 import { technologies } from '../api/technologies.json';
+import useScroll from '../hooks/useScroll';
 
 const AboutPage = () => {
   const { t } = useTranslation('about');
+  const { scrollYPosition, discardScroll } = useScroll();
+
+  useEffect(() => {
+    discardScroll();
+    window.scrollTo(0, scrollYPosition);
+  }, []);
 
   return (
     <div className='h-screen py-7 xl:flex xl:justify-center xl:items-center xl:px-14'>

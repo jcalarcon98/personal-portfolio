@@ -1,9 +1,15 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-// import { useTranslation } from 'next-i18next';
+import { useEffect } from 'react';
 import ProjectItem from '../components/ProjectItem';
+import useScroll from '../hooks/useScroll';
 
 const ProjectsPage = () => {
-  console.log('Hello world');
+  const { scrollYPosition, discardScroll } = useScroll();
+
+  useEffect(() => {
+    discardScroll();
+    window.scrollTo(0, scrollYPosition);
+  }, []);
 
   return (
     <div className='px-4 pt-10 pb-16 xl:px-60 xl:pt-44 xl:pb-10 text-white w-full'>

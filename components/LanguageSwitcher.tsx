@@ -2,11 +2,13 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import cookie from 'js-cookie';
 import styles from '../styles/LanguageSwicther.module.css';
+import useScroll from '../hooks/useScroll';
 
 function LanguageSwitcher() {
   const router = useRouter();
   const { pathname: currentRoute } = router;
   const [isChecked, setIsChecked] = useState(cookie.get('enLanguageSelected') !== undefined);
+  const { handleScroll } = useScroll();
 
   const handleChange = (event) => {
     event.preventDefault();
@@ -19,6 +21,7 @@ function LanguageSwitcher() {
       setIsChecked(false);
       cookie.remove('enLanguageSelected');
     }
+    handleScroll(window.pageYOffset);
     router.push(currentRoute, currentRoute, { locale: checkedValue ? 'es' : 'en' });
   };
 
