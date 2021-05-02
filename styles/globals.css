@@ -5,21 +5,25 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #app, #app>div {
-  height: 100%
+body {
+  min-height: 100vh;
+  background: #111827;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-.scrollbar::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 8px;
   cursor: pointer;
-  background-color: rgba(229, 231, 235, var(--bg-opacity));
+  background-color: #1F2937;
 
 }
-.scrollbar::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background-color: rgba(229, 231, 235, var(--bg-opacity));
   cursor: pointer;
 }
-.scrollbar::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   cursor: pointer;
   background-color: #3B82F6;
   border-radius: 20px;

@@ -10,7 +10,7 @@ const Sidebar = () => {
   const { t } = useTranslation('sidebar');
 
   return (
-    <div className='bg-gray-800 fixed w-full lg:static lg:flex lg:flex-col lg:w-72 lg:justify-between'>
+    <div className='bg-gray-800 w-full h-full lg:static lg:flex lg:flex-col lg:w-72 lg:justify-between'>
       <div className='hidden lg:flex lg:justify-center mt-5'>
         <p className='font-bold text-2xl text-gray-200'>Jean Carlos Alarcón</p>
       </div>

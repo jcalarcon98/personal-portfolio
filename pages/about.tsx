@@ -1,26 +1,13 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Image from 'next/image';
-import { useEffect, useRef } from 'react';
 import TechnologieItem from '../components/TechnologieItem';
 import { technologies } from '../api/technologies.json';
-import useScroll from '../hooks/useScroll';
-import removeCookie from '../utils/removeCookie';
 
 const AboutPage = () => {
-  const cookieName = 'about_scroll';
   const { t } = useTranslation('about');
 
-  removeCookie(cookieName);
-  const { scrollYPosition, handleScroll } = useScroll(cookieName);
-  const scrolledDiv = useRef(null);
-
-  useEffect(() => {
-    scrolledDiv.current.scrollTo(0, scrollYPosition);
-  }, []);
-
   return (
-    <div className='scrollbar overflow-y-auto h-full xl:flex xl:justify-center xl:items-center xl:px-14' ref={scrolledDiv} onScroll={() => handleScroll(scrolledDiv.current.scrollTop)}>
+    <div className='xl:flex xl:justify-center xl:items-center xl:px-14'>
       <div className='p-4 xl:h-4/5 2xl:px-20 2xl:w-4/5'>
         <div className='flex flex-col mb-10 text-sm h-full justify-center lg:mb-0'>
           <div className='flex flex-row items-center mb-4'>
@@ -33,7 +20,7 @@ const AboutPage = () => {
           <div className='flex flex-col xl:flex-row-reverse'>
             <div className='flex justify-center xl:w-2/5'>
               <div className='flex w-3/5 justify-center items-center lg:w-9/12'>
-                <Image className='rounded-xl bg-blue-500' src='/profile.png' width={230} height={230} />
+                <img className='rounded-xl bg-blue-500' src='/profile.png' width={230} height={230} loading='lazy' alt='Profile' />
               </div>
             </div>
             <div className='flex flex-col justify-center text-white mt-2 font-custom xl:w-4/5'>
