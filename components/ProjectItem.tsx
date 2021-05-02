@@ -16,7 +16,7 @@ const ProjectItem = ({
   console.log('Hello');
 
   return (
-    <div className='group rounded-sm flex flex-col justify-between bg-gray-700 w-80 h-72 p-4 py-8'>
+    <div className='group rounded-sm flex flex-col justify-between bg-gray-700 w-full h-72 p-4 py-8'>
       <div className='flex justify-between items-center'>
         <FiFolder className='text-4xl text-blue-500' />
         <div className='flex w-1/5 justify-between'>
