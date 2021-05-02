@@ -6,17 +6,38 @@ const ProjectsPage = () => {
   console.log('Hello world');
 
   return (
-    <div className='p-4 py-12 text-white w-full'>
+    <div className='px-4 pt-10 pb-16 xl:px-60 xl:pt-44 xl:pb-10 text-white w-full'>
       <div>
-        <div className='flex flex-row items-center mb-4'>
+        <div className='flex flex-row items-center'>
           <p className='flex font-custom text-lg font-semibold text-white md:text-2xl'>
             Proyectos
           </p>
           <span className='ml-2 w-2/5 h-custom bg-blue-500' />
         </div>
-        <h3 className='font-custom text-sm mb-4'> s proyectos que he realizado:</h3>
+        <h3 className='font-custom text-sm mb-4'>Algunos proyectos que he realizado:</h3>
         <div className='flex justify-center w-full'>
-          <div className='grid grid-cols-1 gap-3 md:grid-cols-2 xl:h-4/5 2xl:w-4/5'>
+          <div className='w-11/12 grid grid-cols-1 gap-3 md:grid-cols-2 xl:w-full xl:grid-cols-3 xl:gap-4 xl:h-4/5'>
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
+            <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
             <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
             <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />
             <ProjectItem title='Countries App' description='This is a countries application builded with ReactJS, HTML and CSS' stack={['ReactJs', 'HTML', 'CSS']} type='Backend' />

@@ -26,3 +26,13 @@ body::-webkit-scrollbar-thumb {
   background-color: #3B82F6;
   border-radius: 20px;
 }
+
+.custom_width {
+  width: 100%;
+}
+
+@media (min-width: 1280px) { 
+  .custom_width {
+    width: calc(100% - 224px);
+  }
+}

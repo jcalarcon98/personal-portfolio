@@ -7,8 +7,8 @@ export default function Home() {
   const { t } = useTranslation('mainPage');
 
   return (
-    <div className='h-screen flex flex-col-reverse justify-center items-center p-4 lg:p-24 xl:p-40 xl:flex-row'>
-      <div className='w-full mt-4 text-white font-custom flex flex-col justify-center sm:w-4/5 lg:w-full xl:w-3/5 lg:mt-0'>
+    <div className='h-screen flex flex-col-reverse justify-center items-center p-4 xl:flex-row xl:px-40'>
+      <div className='w-full text-white font-custom flex flex-col justify-center sm:w-4/5 lg:w-full xl:w-3/5 lg:mt-0'>
         <p className='text-base text-white font-bold lg:mb-2 lg:text-lg'>{`${t('greeting')} ${String.fromCodePoint(0x1F44b)}, ${t('my_name_is')}`}</p>
         <TypeWriter text='Jean Carlos Alarcón.' classElements='text-2xl mb-1 lg:text-7xl lg:mb-4 font-bold text-blue-500' />
         <p className='text-lg lg:text-4xl mb-4 font-extrabold text-gray-400 uppercase'>{t('position')}</p>
