@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
 const Layout = ({ children }: { children: React.ReactNode }) => (
-  <div className='h-screen xl:flex xl:flex-row-reverse'>
+  <div className='h-full xl:flex xl:flex-row-reverse'>
 
     <div className='h-screen'>
       <div className='h-10 fixed top-0 left-0 xl:ml-56 custom_width'>

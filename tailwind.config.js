@@ -3,13 +3,17 @@ const colors = require('tailwindcss/colors');
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
         custom: ['Montserrat', 'sans-serif'],
       },
       colors: {
+        'light-bg': '#f9f7f7',
+        'light-helper': '#dbe2ef',
+        'light-text': '#112d4e',
+        'light-utils': '#3f72af',
       },
     },
     screens: {

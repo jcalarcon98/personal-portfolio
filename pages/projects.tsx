@@ -12,10 +12,10 @@ const ProjectsPage = () => {
   }, []);
 
   return (
-    <div className='px-4 pt-10 pb-16 xl:px-60 xl:pt-44 xl:pb-10 text-white w-full'>
+    <div className='px-4 pt-10 pb-16 xl:px-60 xl:pt-44 xl:pb-10 text-gray-600 dark:text-white w-full'>
       <div>
         <div className='flex flex-row items-center'>
-          <p className='flex font-custom text-lg font-semibold text-white md:text-2xl'>
+          <p className='flex font-custom text-lg font-semibold  md:text-2xl'>
             Proyectos
           </p>
           <span className='ml-2 w-2/5 h-custom bg-blue-500' />
