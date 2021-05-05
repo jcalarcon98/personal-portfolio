@@ -7,6 +7,7 @@ import { BiLinkExternal } from 'react-icons/bi';
 const ProjectItem = ({
   title,
   description,
+  features,
   stack,
   type,
   repoUrl = '',
@@ -16,7 +17,7 @@ const ProjectItem = ({
   console.log('Hello');
 
   return (
-    <div className='group rounded-sm flex flex-col justify-between bg-gray-300 dark:bg-gray-700 w-full h-72 p-4 py-8 hover:transform xl:transition xl:duration-500 hover:-translate-y-2'>
+    <div className='group rounded-sm flex flex-col justify-between bg-gray-300 dark:bg-gray-700 w-full h-72 p-4 py-4 xl:transition xl:duration-500 hover:-translate-y-2 hover:transform '>
       <div className='flex justify-between items-center'>
         <FiFolder className='text-4xl text-blue-500' />
         <div className='flex w-1/5 text-xl justify-between'>
@@ -36,6 +37,21 @@ const ProjectItem = ({
         </p>
       </div>
 
+      {
+        features && (
+          <div className='font-custom'>
+            <h3 className='text-sm font-semibold text-blue-500'>Relevant Features</h3>
+            <ul className='list-disc list-inside'>
+              {
+                features.map((currentFeature, index) => (
+                  <li className='text-xs' key={index}>{currentFeature}</li>
+                ))
+              }
+            </ul>
+          </div>
+        )
+      }
+
       <div className='flex flex-row justify-between items-center'>
         <div className='font-custom'>
           {
@@ -48,7 +64,7 @@ const ProjectItem = ({
         </div>
 
         <div className='text-xs font-semibold rounded-lg px-2 bg-blue-500 text-white'>
-          { type }
+          {type}
         </div>
       </div>
     </div>
@@ -56,6 +72,7 @@ const ProjectItem = ({
 };
 
 ProjectItem.defaultProps = {
+  features: [],
   repoUrl: '',
   demoUrl: '',
 };
@@ -64,6 +81,7 @@ ProjectItem.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   stack: PropTypes.arrayOf(PropTypes.string).isRequired,
+  features: PropTypes.arrayOf(PropTypes.string),
   type: PropTypes.string.isRequired,
   repoUrl: PropTypes.string,
   demoUrl: PropTypes.string,

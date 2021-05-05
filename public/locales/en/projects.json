@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Personal Portfolio",
+      "description": "Website to show all relevant information about me.",
+      "features": [
+        "i18n",
+        "Light/Dark mode"
+      ],
+      "stack": ["NextJS", "Tailwindcss"],
+      "type": "Frontend",
+      "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
+      "demoUrl": "https://jcalarcon.me"
+    },
+    {
+      "id": 2,
+      "title": "Events information",
+      "description": "RESTful API to generate custom .docx files",
+      "features": [
+        "Automatic .docx file generation"
+      ],
+      "stack": ["NodeJS", "Express"],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/events-information",
+    },
+    {
+      "id": 3,
+      "title": "Backend Portfolio",
+      "description": "GraphQL API to manage personal information",
+      "features": [
+        "JWT authentication",
+        "Send Emails Automatically",
+        "Upload Images",
+        "Limit time password recovery",
+        "GitHub Actions Deploy"
+      ],
+      "stack": ["NodeJS", "NestJs", "Postgres", "Docker"],
+      "type": "Backend"
+    }
+  ]
+}

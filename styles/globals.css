@@ -33,5 +33,6 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1280px) { 
   .custom_width {
     width: calc(100% - 224px);
+    min-width: calc(100% - 224px);
   }
 }

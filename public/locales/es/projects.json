@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portafolio Personal",
+      "description": "Sitio web para mostrar toda la información relevante sobre mí.",
+      "features": [
+        "i18n",
+        "Light/Dark mode"
+      ],
+      "stack": ["NextJS", "Tailwindcss"],
+      "type": "Frontend",
+      "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
+      "demoUrl": "https://jcalarcon.me"
+    },
+    {
+      "id": 2,
+      "title": "test 1",
+      "description": "This is a countries application builded with ReactJS, HTML and CSS",
+      "features": [
+        "i18n",
+        "Light/Dark mode"
+      ],
+      "stack": ["Ojo1", "OJo2", "ojo3"],
+      "type": "Frontend"
+    },
+    {
+      "id": 3,
+      "title": "test 1",
+      "description": "This is a countries application builded with ReactJS, HTML and CSS",
+      "features": [
+        "i18n",
+        "Light/Dark mode"
+      ],
+      "stack": ["Ojo1", "OJo2", "ojo3"],
+      "type": "Backend"
+    }
+  ]
+}
