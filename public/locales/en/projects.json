@@ -22,11 +22,11 @@
       ],
       "stack": ["NodeJS", "Express"],
       "type": "Backend",
-      "repoUrl": "https://github.com/jcalarcon98/events-information",
+      "repoUrl": "https://github.com/jcalarcon98/events-information"
     },
     {
       "id": 3,
-      "title": "Backend Portfolio",
+      "title": "Portfolio Manager",
       "description": "GraphQL API to manage personal information",
       "features": [
         "JWT authentication",
@@ -35,8 +35,49 @@
         "Limit time password recovery",
         "GitHub Actions Deploy"
       ],
-      "stack": ["NodeJS", "NestJs", "Postgres", "Docker"],
-      "type": "Backend"
+      "stack": ["NodeJS", "NestJs", "GraphQL", "Postgres", "Docker"],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/nest-backend-portfolio",
+      "demoUrl": "https://jcalarcon.me/portfolio/graphql"
+    },
+    {
+      "id": 4,
+      "title": "Twitter Clone",
+      "description": "Basic RESTful API to simulate twitter functionalities",
+      "features": [
+        "JWT authentication",
+        "Code Coverage: 89%",
+        "Swagger Documentation",
+        "GitHub Actions Deploy"
+      ],
+      "stack": ["DRF", "Postgres", "Docker"],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
+      "demoUrl": "https://jcalarcon.me/twitter/swagger/"
+    },
+    {
+      "id": 5,
+      "title": "Syllabus Tracking Information",
+      "description": "RESTful API to generate custom .docx files with statistics graphs",
+      "features": [
+        "Automatic .docx file generation",
+        "Statistics graphs generation"
+      ],
+      "stack": ["NodeJS", "Express"],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/SSPM-BACKEND"
+    },
+    {
+      "id": 6,
+      "title": "Countries Application",
+      "description": "Application to know the different countries for each continent.",
+      "features": [
+        "Light/Dark mode"
+      ],
+      "stack": ["HTML", "CSS", "ReactJs"],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/react-countries",
+      "demoUrl": "https://jcalarcon98.github.io/react-countries/#/"
     }
   ]
 }
