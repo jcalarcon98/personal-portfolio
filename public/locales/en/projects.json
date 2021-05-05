@@ -5,10 +5,25 @@
       "title": "Personal Portfolio",
       "description": "Website to show all relevant information about me.",
       "features": [
-        "i18n",
-        "Light/Dark mode"
+        {
+          "id": 1,
+          "name": "i18n"
+        },
+        {
+          "id": 2,
+          "name": "Light/Dark mode"
+        }
       ],
-      "stack": ["NextJS", "Tailwindcss"],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NextJS"
+        },
+        {
+          "id": 2,
+          "name": "Tailwindcss"    
+        } 
+      ],
       "type": "Frontend",
       "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
       "demoUrl": "https://jcalarcon.me"
@@ -18,9 +33,21 @@
       "title": "Events information",
       "description": "RESTful API to generate custom .docx files",
       "features": [
-        "Automatic .docx file generation"
+        {
+          "id": 1,
+          "name": "Automatic .docx file generation"
+        }
       ],
-      "stack": ["NodeJS", "Express"],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
+        },
+        {
+          "id": 2,
+          "name": "Express"
+        }
+      ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/events-information"
     },
@@ -29,13 +56,49 @@
       "title": "Portfolio Manager",
       "description": "GraphQL API to manage personal information",
       "features": [
-        "JWT authentication",
-        "Send Emails Automatically",
-        "Upload Images",
-        "Limit time password recovery",
-        "GitHub Actions Deploy"
+        {
+          "id": 1,
+          "name": "JWT authentication"
+        },
+        {
+          "id": 2,
+          "name": "Send Emails Automatically"
+        },
+        {
+          "id": 3,
+          "name": "Upload Images"
+        },
+        {
+          "id": 4,
+          "name": "Limit time password recovery"
+        },
+        {
+          "id": 5,
+          "name": "GitHub Actions Deploy"
+        }
       ],
-      "stack": ["NodeJS", "NestJs", "GraphQL", "Postgres", "Docker"],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS"
+        },
+        {
+          "id": 2,
+          "name": "NestJs"
+        },
+        {
+          "id": 3,
+          "name": "GraphQL"
+        },
+        {
+          "id": 4,
+          "name": "Postgres"
+        },
+        {
+          "id": 5,
+          "name": "Docker"
+        }
+      ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/nest-backend-portfolio",
       "demoUrl": "https://jcalarcon.me/portfolio/graphql"
@@ -45,12 +108,37 @@
       "title": "Twitter Clone",
       "description": "Basic RESTful API to simulate twitter functionalities",
       "features": [
-        "JWT authentication",
-        "Code Coverage: 89%",
-        "Swagger Documentation",
-        "GitHub Actions Deploy"
+        {
+          "id": 1,
+          "name":  "JWT authentication"
+        },
+        {
+          "id": 2,
+          "name": "Code Coverage: 89%"
+        },
+        {
+          "id": 3,
+          "name": "Swagger Documentation"
+        },
+        {
+          "id": 4,
+          "name": "GitHub Actions Deploy"
+        }
       ],
-      "stack": ["DRF", "Postgres", "Docker"],
+      "stack": [
+        {
+          "id": 1,
+          "name": "DRF"
+        },
+        {
+          "id": 2,
+          "name": "Postgres"
+        },
+        {
+          "id": 3,
+          "name": "Docker"
+        }
+      ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
       "demoUrl": "https://jcalarcon.me/twitter/swagger/"
@@ -60,10 +148,25 @@
       "title": "Syllabus Tracking Information",
       "description": "RESTful API to generate custom .docx files with statistics graphs",
       "features": [
-        "Automatic .docx file generation",
-        "Statistics graphs generation"
+        {
+          "id": 1,
+          "name":  "Automatic .docx file generation"
+        },
+        {
+          "id": 2,
+          "name":  "Statistics graphs generation"
+        }
       ],
-      "stack": ["NodeJS", "Express"],
+      "stack": [
+        {
+          "id": 1,
+          "name":  "NodeJS"
+        },
+        {
+          "id": 2,
+          "name":  "Express"
+        }
+      ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/SSPM-BACKEND"
     },
@@ -72,10 +175,26 @@
       "title": "Countries Application",
       "description": "Application to know the different countries for each continent.",
       "features": [
-        "Light/Dark mode"
+        {
+          "id": 1,
+          "name":  "Light/Dark mode"
+        }
       ],
-      "stack": ["HTML", "CSS", "ReactJs"],
-      "type": "Backend",
+      "stack": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "ReactJs"
+        }
+      ],
+      "type": "Frontend",
       "repoUrl": "https://github.com/jcalarcon98/react-countries",
       "demoUrl": "https://jcalarcon98.github.io/react-countries/#/"
     }

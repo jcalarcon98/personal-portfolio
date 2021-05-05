@@ -5,35 +5,198 @@
       "title": "Portafolio Personal",
       "description": "Sitio web para mostrar toda la información relevante sobre mí.",
       "features": [
-        "i18n",
-        "Light/Dark mode"
+        {
+          "id": 1,
+          "name": "i18n"
+        },
+        {
+          "id": 2,
+          "name": "Light/Dark mode"
+        }
       ],
-      "stack": ["NextJS", "Tailwindcss"],
+      "stack": [
+        {
+          "id": 1,
+          "name": "NextJS"
+        },
+        {
+          "id": 2,
+          "name": "Tailwindcss"    
+        } 
+      ],
       "type": "Frontend",
       "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
       "demoUrl": "https://jcalarcon.me"
     },
     {
       "id": 2,
-      "title": "test 1",
-      "description": "This is a countries application builded with ReactJS, HTML and CSS",
+      "title": "Información de eventos",
+      "description": "RESTful API para generar archivos .docx personalizados",
       "features": [
-        "i18n",
-        "Light/Dark mode"
+        {
+          "id": 1,
+          "name": "Generación automática de archivos .docx"
+        }
       ],
-      "stack": ["Ojo1", "OJo2", "ojo3"],
-      "type": "Frontend"
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS" 
+        },
+        {
+          "id": 2,
+          "name": "Express"
+        }
+      ],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/events-information"
     },
     {
       "id": 3,
-      "title": "test 1",
-      "description": "This is a countries application builded with ReactJS, HTML and CSS",
+      "title": "Administrador de Portafolios",
+      "description": "GraphQL API para administrar la información personal",
       "features": [
-        "i18n",
-        "Light/Dark mode"
+        {
+          "id": 1,
+          "name": "JWT Autenticación"
+        },
+        {
+          "id": 2,
+          "name": "Envió de emails automáticos"
+        },
+        {
+          "id": 3,
+          "name": "Carga de imagenes"
+        },
+        {
+          "id": 4,
+          "name": "Recuperación de contraseñas por tiempo limitado"
+        },
+        {
+          "id": 5,
+          "name": "Despliegue con Github Actions"
+        }
       ],
-      "stack": ["Ojo1", "OJo2", "ojo3"],
-      "type": "Backend"
+      "stack": [
+        {
+          "id": 1,
+          "name": "NodeJS"
+        },
+        {
+          "id": 2,
+          "name": "NestJs"
+        },
+        {
+          "id": 3,
+          "name": "GraphQL"
+        },
+        {
+          "id": 4,
+          "name": "Postgres"
+        },
+        {
+          "id": 5,
+          "name": "Docker"
+        }
+      ],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/nest-backend-portfolio",
+      "demoUrl": "https://jcalarcon.me/portfolio/graphql"
+    },
+    {
+      "id": 4,
+      "title": "Clon de Twitter",
+      "description": "RESTful API Basica para simular las funcionalidades de Twitter",
+      "features": [
+        {
+          "id": 1,
+          "name": "JWT Autenticación"
+        },
+        {
+          "id": 2,
+          "name": "Code Coverage: 89%"
+        },
+        {
+          "id": 3,
+          "name": "Documentación con Swagger"
+        },
+        {
+          "id": 4,
+          "name": "Despliegue con Github Actions"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "DRF"
+        },
+        {
+          "id": 2,
+          "name": "Postgres"
+        },
+        {
+          "id": 3,
+          "name": "Docker"
+        }
+      ],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
+      "demoUrl": "https://jcalarcon.me/twitter/swagger/"
+    },
+    {
+      "id": 5,
+      "title": "Información de Seguimiento al sílabo",
+      "description": "RESTful API pra generar archivos .docx personalizados con gráficos estadísticos",
+      "features": [
+        {
+          "id": 1,
+          "name":  "Generación automática de Archivos .docx"
+        },
+        {
+          "id": 2,
+          "name":  "Generación automática de Gráficos estadísticos"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name":  "NodeJS"
+        },
+        {
+          "id": 2,
+          "name":  "Express"
+        }
+      ],
+      "type": "Backend",
+      "repoUrl": "https://github.com/jcalarcon98/SSPM-BACKEND"
+    },
+    {
+      "id": 6,
+      "title": "Aplicación de Paises",
+      "description": "Aplicación para conocer los diferentes paises de cada continente.",
+      "features": [
+        {
+          "id": 1,
+          "name":  "Light/Dark mode"
+        }
+      ],
+      "stack": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "ReactJs"
+        }
+      ],
+      "type": "Frontend",
+      "repoUrl": "https://github.com/jcalarcon98/react-countries",
+      "demoUrl": "https://jcalarcon98.github.io/react-countries/#/"
     }
   ]
 }
