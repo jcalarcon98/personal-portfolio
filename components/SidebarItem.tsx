@@ -9,7 +9,7 @@ const SidebarItem = ({ section, icon, url }) => {
     <Link href={url}>
       <a className={`${pathname === url ? 'border-t-4 border-blue-500 text-blue-500 xl:border-t-0 xl:border-l-4' : 'text-gray-600 dark:text-white'}  flex flex-grow items-center justify-center xl:mb-4 xl:pl-4 hover:text-blue-500`}>
         <div className='text-center flex flex-col xl:flex-row xl:items-center'>
-          <span className='block h-8 text-2xl'>
+          <span className='block h-8 text-xl'>
             <i className={icon} />
           </span>
           <span className='block text-xs font-custom xl:text-lg xl:font-medium xl:ml-2'>{section}</span>

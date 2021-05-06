@@ -1,7 +1,3 @@
-import {
-  AiFillGithub, AiFillLinkedin, AiFillTwitterCircle,
-} from 'react-icons/ai';
-import { MdMessage } from 'react-icons/md';
 import { useTranslation } from 'next-i18next';
 import { sections } from '../api/sidebar.json';
 import SidebarItem from './SidebarItem';
@@ -26,16 +22,16 @@ const Sidebar = () => {
       </div>
       <div className='hidden text-blue-500 mb-5 xl:flex xl:flex-row xl:justify-center'>
         <a href='https://github.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
-          <AiFillGithub />
+          <i className='fab fa-github' />
         </a>
         <a href='https://www.linkedin.com/in/jcalarcon98/' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
-          <AiFillLinkedin />
+          <i className='fab fa-linkedin' />
         </a>
         <a href='https://twitter.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
-          <AiFillTwitterCircle />
+          <i className='fab fa-twitter-square' />
         </a>
         <a href='mailto:someone@yoursite.com' target='blank' className='text-2xl'>
-          <MdMessage />
+          <i className='far fa-envelope-open' />
         </a>
       </div>
     </div>

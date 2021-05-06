@@ -4,19 +4,19 @@
       "id": "1",
       "name": "home",
       "url": "/",
-      "icon": "mdi mdi-home-outline" 
+      "icon": "fas fa-home" 
     },
     { 
       "id": "2",
       "name": "about",
       "url": "/about",
-      "icon": "mdi mdi-account-box-outline" 
+      "icon": "far fa-address-card" 
     },
     {
       "id": "3",
       "name": "projects",
       "url": "/projects",
-      "icon": "mdi mdi-file-code" 
+      "icon": "fas fa-laptop-code" 
     }
   ]
 }

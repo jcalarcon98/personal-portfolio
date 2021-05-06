@@ -1,6 +1,4 @@
 import PropTypes from 'prop-types';
-import { FiGithub, FiFolder } from 'react-icons/fi';
-import { BiLinkExternal } from 'react-icons/bi';
 
 const ProjectItem = ({
   title,
@@ -13,13 +11,13 @@ const ProjectItem = ({
 }) => (
   <div className='group rounded-sm flex flex-col justify-between bg-gray-300 dark:bg-gray-700 w-full h-80 p-4 py-4 xl:transition xl:duration-500 xl:transform hover:-translate-y-2 '>
     <div className='flex justify-between items-center'>
-      <FiFolder className='text-4xl text-blue-500' />
+      <i className='text-4xl text-blue-500 far fa-folder' />
       <div className='flex w-1/5 text-xl justify-between'>
         <a href={repoUrl} className='hover:text-blue-500'>
-          <FiGithub />
+          <i className='fab fa-git-alt' />
         </a>
         <a href={demoUrl} className='hover:text-blue-500'>
-          <BiLinkExternal />
+          <i className='fas fa-external-link-alt' />
         </a>
       </div>
     </div>
