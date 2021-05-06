@@ -41,8 +41,21 @@ const ProjectsPage = () => {
                     description,
                     title,
                     features,
+                    demoUrl,
+                    repoUrl,
                   },
-                ) => <ProjectItem key={id} title={title} stack={stack} type={type} description={description} features={features} />)
+                ) => (
+                  <ProjectItem
+                    key={id}
+                    title={title}
+                    stack={stack}
+                    type={type}
+                    description={description}
+                    features={features}
+                    demoUrl={demoUrl}
+                    repoUrl={repoUrl}
+                  />
+                ))
               }
             </div>
           </div>

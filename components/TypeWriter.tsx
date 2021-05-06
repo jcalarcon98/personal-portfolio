@@ -2,13 +2,13 @@ import PropTypes from 'prop-types';
 import { useRef, useEffect } from 'react';
 import Typed from 'typed.js';
 
-const TypeWriter = ({ text, classElements = '' }) => {
+const TypeWriter = ({ text, typeSpeed = 50, classElements = '' }) => {
   const typeTarget = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
       strings: [text],
-      typeSpeed: 60,
+      typeSpeed,
       backSpeed: 50,
       autoInsertCss: true,
       shuffle: true,
@@ -28,11 +28,13 @@ const TypeWriter = ({ text, classElements = '' }) => {
 
 TypeWriter.defaultProps = {
   classElements: '',
+  typeSpeed: 50,
 };
 
 TypeWriter.propTypes = {
   text: PropTypes.string.isRequired,
   classElements: PropTypes.string,
+  typeSpeed: PropTypes.number,
 };
 
 export default TypeWriter;
