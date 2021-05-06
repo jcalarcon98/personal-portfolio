@@ -10,7 +10,7 @@ const Sidebar = () => {
       <div className='hidden py-2 border-b border-gray-300 dark:border-gray-800 animate-pulse-slow xl:justify-center xl:px-4 xl:flex '>
         <img src='/logo.png' alt='Personal Logo' width={40} />
       </div>
-      <div className='w-full flex h-12 xl:h-auto xl:flex-col xl:items-start xl:justify-items-start'>
+      <div className='w-full flex h-14 xl:h-auto xl:flex-col xl:items-start xl:justify-items-start'>
         {
         sections.map(({
           id,
@@ -30,7 +30,7 @@ const Sidebar = () => {
         <a href='https://twitter.com/jcalarcon98' target='blank' rel='noopener noreferrer' className='text-2xl mr-4'>
           <i className='fab fa-twitter-square' />
         </a>
-        <a href='mailto:someone@yoursite.com' target='blank' className='text-2xl'>
+        <a href='mailto:jeancalarcon98@gmail.com' target='blank' className='text-2xl'>
           <i className='far fa-envelope-open' />
         </a>
       </div>

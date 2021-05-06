@@ -1,4 +1,6 @@
-{
+{ 
+  "title" : "Proyectos",
+  "subtitle": "Algunos proyectos que he construido",
   "projects": [
     {
       "id": 1,
