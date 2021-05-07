@@ -9,6 +9,7 @@ const Seo = ({ currentPage }) => (
     <meta name='keywords' content='Ecuador, Desarrollador, Developer, HTML, ReactJS, NextJS' />
     <meta name='author' content='Jean Carlos Alarcón' />
     <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+    <meta property='og:image' content='/about.png' />
   </Head>
 );
 
