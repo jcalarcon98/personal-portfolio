@@ -18,7 +18,7 @@ export default function Home() {
           <p className='w-full text-sm font-medium mb-4 lg:mb-8 lg:w-4/5 lg:text-lg '>
             {t('description')}
           </p>
-          <button type='button' className='w-3/5 border-2 h-7 text-sm mb-4 font-semibold rounded-lg border-blue-500 bg-transparent lg:w-2/5 lg:border-2 lg:h-12 xl:w-1/5 hover:text-white hover:bg-blue-500 focus:outline-none'>{t('download')}</button>
+          <a href='/cv.pdf' download className='w-3/5 flex items-center justify-center border-2 h-7 text-sm mb-4 font-semibold rounded-lg border-blue-500 bg-transparent lg:w-2/5 lg:border-2 lg:h-12 xl:w-1/5 hover:text-white hover:bg-blue-500 focus:outline-none'>{t('download')}</a>
         </div>
         <div className='flex items-center w-32 justify-center sm:w-48 lg:justify-start  xl:w-1/5'>
           <Image className='object-fill hover:opacity-90 text-red-500' src='/sit.svg' alt='Profile' width={240} height={280} />
