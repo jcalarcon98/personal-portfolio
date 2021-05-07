@@ -1,0 +1,9 @@
+Dockerfile
+node_modules
+.dockerignore
+README.md
+.next
+.github/*
+.eslintignore
+.eslintrc.js
+LICENSE
