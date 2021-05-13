@@ -31,7 +31,7 @@ const ProjectsPage = () => {
           </div>
           <h3 className='font-custom text-sm mb-4'>{t('subtitle')}</h3>
           <div className='flex justify-center w-full'>
-            <div className='w-11/12 grid grid-cols-1 gap-3 md:grid-cols-2 xl:w-full 2xl:grid-cols-3 2xl:gap-4 2xl:h-4/5'>
+            <div className='w-11/12 grid grid-cols-1 gap-3 md:grid-cols-2 xl:w-full 2xl:grid-cols-3 2xl:gap-4 h-5/6'>
               {
                 projects.map((
                   {

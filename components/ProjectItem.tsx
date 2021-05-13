@@ -9,7 +9,7 @@ const ProjectItem = ({
   repoUrl = '',
   demoUrl = '',
 }) => (
-  <div className='group rounded-sm flex flex-col justify-between bg-gray-300 dark:bg-gray-700 w-full h-80 p-4 py-4 xl:transition xl:duration-500 xl:transform hover:-translate-y-2 '>
+  <div className='group rounded-sm flex flex-col justify-between bg-gray-300 dark:bg-gray-700 w-full p-4 py-4 xl:transition xl:duration-500 xl:transform hover:-translate-y-2 '>
     <div className='flex justify-between items-center'>
       <i className='text-4xl text-blue-500 far fa-folder' />
       <div className={`flex w-1/5 text-xl ${repoUrl !== '' && demoUrl !== '' ? 'justify-between' : 'justify-end'}`}>
