@@ -19,7 +19,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Seo currentPage={t('title')} />
-      <div className='px-4 pt-12 pb-16 xl:px-60 xl:pt-44 xl:pb-10 text-gray-600 dark:text-white'>
+      <div className='px-4 pt-12 pb-16 xl:px-40 xl:pt-44 xl:pb-10 2xl:px-60 text-gray-600 dark:text-white'>
         <div>
           <div className='flex flex-row items-center'>
             <p className='flex font-custom text-lg font-semibold  md:text-2xl'>
@@ -31,7 +31,7 @@ const ProjectsPage = () => {
           </div>
           <h3 className='font-custom text-sm mb-4'>{t('subtitle')}</h3>
           <div className='flex justify-center w-full'>
-            <div className='w-11/12 grid grid-cols-1 gap-3 md:grid-cols-2 xl:w-full xl:grid-cols-3 xl:gap-4 xl:h-4/5'>
+            <div className='w-11/12 grid grid-cols-1 gap-3 md:grid-cols-2 xl:w-full 2xl:grid-cols-3 2xl:gap-4 2xl:h-4/5'>
               {
                 projects.map((
                   {

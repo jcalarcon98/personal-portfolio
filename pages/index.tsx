@@ -18,7 +18,7 @@ export default function Home() {
           <p className='w-full text-sm font-medium mb-4 lg:mb-8 lg:w-4/5 lg:text-lg '>
             {t('description')}
           </p>
-          <a href='/cv.pdf' download className='w-3/5 flex items-center justify-center border-2 h-7 text-sm mb-4 font-semibold rounded-lg border-blue-500 bg-transparent lg:w-2/5 lg:border-2 lg:h-12 xl:w-1/5 hover:text-white hover:bg-blue-500 focus:outline-none'>
+          <a href='/cv.pdf' download className='w-3/5 flex items-center justify-center border-2 h-7 text-sm mb-4 font-semibold rounded-lg border-blue-500 bg-transparent lg:w-2/5 lg:border-2 lg:h-12 xl:w-2/5 2xl:w-48 hover:text-white hover:bg-blue-500 focus:outline-none'>
             <i className='fas fa-download mr-2' />
             {t('download')}
           </a>
