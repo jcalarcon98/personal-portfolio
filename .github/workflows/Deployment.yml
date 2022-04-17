@@ -32,20 +32,20 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/personal-portfolio:latest
   
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+  # deploy:
+  #   needs: build
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - name: Upgrade images on Droplet
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          script: |
-            cd ${{ secrets.DIRECTORY }}
-            docker-compose down
-            docker rmi ${{ secrets.DOCKER_HUB_USERNAME }}/personal-portfolio
-            docker-compose up --build -d
+  #   steps:
+  #     - name: Upgrade images on Droplet
+  #       uses: appleboy/ssh-action@master
+  #       with:
+  #         host: ${{ secrets.HOST }}
+  #         username: ${{ secrets.USERNAME }}
+  #         password: ${{ secrets.PASSWORD }}
+  #         script: |
+  #           cd ${{ secrets.DIRECTORY }}
+  #           docker-compose down
+  #           docker rmi ${{ secrets.DOCKER_HUB_USERNAME }}/personal-portfolio
+  #           docker-compose up --build -d
   

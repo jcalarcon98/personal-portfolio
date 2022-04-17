@@ -28,7 +28,7 @@
       ],
       "type": "Frontend",
       "repoUrl": "https://github.com/jcalarcon98/personal-portfolio",
-      "demoUrl": "https://jcalarcon.me"
+      "demoUrl": "https://jcalarcon.com"
     },
     {
       "id": 2,
@@ -103,7 +103,7 @@
       ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/nest-backend-portfolio",
-      "demoUrl": "https://jcalarcon.me/portfolio/graphql"
+      "demoUrl": "https://jcalarcon.com/portfolio/graphql"
     },
     {
       "id": 4,
@@ -143,7 +143,7 @@
       ],
       "type": "Backend",
       "repoUrl": "https://github.com/jcalarcon98/drf-twitter-clone",
-      "demoUrl": "https://jcalarcon.me/twitter/swagger/"
+      "demoUrl": "https://jcalarcon.com/twitter/swagger/"
     },
     {
       "id": 5,
