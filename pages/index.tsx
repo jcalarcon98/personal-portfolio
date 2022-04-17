@@ -27,9 +27,7 @@ export default function Home() {
           <Image className='object-fill hover:opacity-90 text-red-500' src='/sit.svg' alt='Profile' width={240} height={280} />
         </div>
       </div>
-
     </>
-
   );
 }
 
